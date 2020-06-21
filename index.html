@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                PSmigielski
+            </div>
+            <ul class="nav-menu">
+                <li class="menu-link">Home</li>
+                <li class="menu-link">About</li>
+                <li class="menu-link">Contact</li>
+            </ul>
+            <svg onclick="menuOpen()" width="60" height="60" class="burger" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" fill="#0BB330"/>
+                <line x1="8" y1="10" x2="32" y2="10" stroke="white" stroke-width="2"/>
+                <line x1="8" y1="20" x2="32" y2="20" stroke="white" stroke-width="2"/>
+                <line x1="8" y1="30" x2="32" y2="30" stroke="white" stroke-width="2"/>
+            </svg>    
+        </nav>
+        <section class="page home">
+            <div class="homeTxt">
+                <h3>My Portfolio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu massa velit. Nulla libero lacus, rhoncus scelerisque erat sit amet, malesuada laoreet purus. Ut eu blandit augue, in sodales nibh. Morbi nec tincidunt libero, vitae luctus ligula.</p>
+            </div>
+            <img class="homeImg" src="./svg/undraw_working_late_pukg.svg" alt="home svg"/>
+        </section>        
+        <section class="page about">
+            <div class="txt1">
+                <h3>My experience</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu massa velit. Nulla libero lacus, rhoncus scelerisque erat sit amet, malesuada laoreet purus. Donec diam nulla, interdum id velit quis, pharetra consequat mi. Fusce faucibus justo quam, sed gravida velit consectetur eu.</p>
+            </div>
+            <img class="aboutImg ai1" src="./svg/undraw_web_developer_p3e5.svg" alt="about svg" />
+            <div class="txt2">
+                <h3>Technologies</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu massa velit. Nulla libero lacus, rhoncus scelerisque erat sit amet, malesuada laoreet purus. Donec diam nulla, interdum id velit quis, pharetra consequat mi. Fusce faucibus justo quam, sed gravida velit consectetur eu.</p>
+            </div>
+            <img class="aboutImg ai2" src="./svg/undraw_static_assets_rpm6.svg" alt="about svg" />
+        </section>
+        <section class="page contact">
+            <img class="contactImg" src="./svg/undraw_contact_us_15o2.svg" alt="contact svg" />
+            <div class="contactData">
+                <div class="data">  
+                    <h3>Phone number</h3>
+                    <p>686843234</p>
+                </div>
+                <div class="data">
+                    <h3>E-mail adress</h3>
+                    <p>PSmigielski@gmail.pl</p>
+                </div>
+                <div class="data">
+                    <h3>Social Media</h3>
+                    <div class="socialImgs">
+                        <img class="socialImg" src="./svg/facebook.svg" alt="facebook icon">
+                        <img class="socialImg" src="./svg/instagram.svg" alt="instagram Icon">
+                        <img class="socialImg" src="./svg/github.svg" alt="github Icon">
+                        <img class="socialImg" src="./svg/pinterest.svg" alt="printerest Icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="landing"></section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js" integrity="sha256-TzB4159Z3KQzkMIC44o6Jf9VM2La3nQUP0H364BGp7A=" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
